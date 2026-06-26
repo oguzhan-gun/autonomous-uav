@@ -1,28 +1,17 @@
 # Autonomous Combat UAV
 ![ROS2](https://img.shields.io/badge/ROS2-Jazzy-22314E?style=for-the-badge\&logo=ros)
-
 ![Gazebo](https://img.shields.io/badge/Gazebo-Simulator-orange?style=for-the-badge)
-
 ![PX4](https://img.shields.io/badge/PX4-Autopilot-0055FF?style=for-the-badge)
-
 ![MAVLink](https://img.shields.io/badge/MAVLink-Protocol-blue?style=for-the-badge)
-
 ![YOLOv11](https://img.shields.io/badge/YOLO-v11-red?style=for-the-badge)
-
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-5C3EE8?style=for-the-badge\&logo=opencv)
-
 ![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge\&logo=cplusplus)
-
 ![License](https://img.shields.io/badge/License-Research%20Only-success?style=for-the-badge)
 
 
 An autonomous air-to-air combat system developed for the **Teknofest Autonomous Combat UAV Competition**. The project focuses on real-time perception, target tracking, predictive guidance, and autonomous interception using ROS 2, Gazebo, PX4, and computer vision.
 
 ---
-
-# Demo
-
-<p align="center">
 
 # Demo 
 Real-time autonomous target tracking in Gazebo simulation.
@@ -75,13 +64,8 @@ The system was successfully developed through the **Critical Design Review (CDR)
 
 Instead of following the current target position, the interceptor predicts future target states using an adaptive predictive guidance framework.
 
-Future state estimation considers:
-
-* Target velocity
-* Estimated angular velocity
-* Current engagement geometry
-
 This approach enables smoother interception while reducing tracking latency during aggressive maneuvers.
+
 ---
 
 ## Flight Control
@@ -113,8 +97,8 @@ to improve robustness and positioning accuracy during autonomous engagement.
 The project includes a complete interception framework capable of
 
 * Relative positioning
-* Lead-angle estimation
-* Strategic lower-angle engagement
+* Target interception
+* Autonomous target tracking
 * Autonomous target locking
 
 ---
@@ -148,13 +132,17 @@ The project includes a complete interception framework capable of
 
 ---
 
-# Future Work
+## Competition Constraints
 
-* Multi-target engagement
-* Reinforcement Learning-based guidance
-* Multi-UAV swarm coordination
-* Onboard deployment
-* Hardware-in-the-loop testing
+The simulation environment and autonomous flight system were developed in accordance with the **Teknofest Autonomous Combat UAV Competition** regulations.
+
+The implementation follows the competition constraints, including:
+
+* GNSS data limited to **1 Hz** update frequency
+* Real-time autonomous operation under competition-defined sensor limitations
+* Flight control and communication compatible with the official competition framework
+
+These constraints were incorporated to ensure that the developed algorithms remain applicable to realistic competition scenarios.
 
 ---
 
@@ -162,7 +150,7 @@ The project includes a complete interception framework capable of
 
 This repository is intended for research and educational purposes.
 
-# Research
+# Research Affiliation
 
 This project is actively maintained and further developed as part of the KARAN UAV Team. Ongoing research focuses on autonomous aerial combat, predictive guidance, sensor fusion, and intelligent UAV systems.
 
