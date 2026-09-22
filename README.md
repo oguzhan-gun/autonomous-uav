@@ -16,13 +16,16 @@ An autonomous air-to-air combat system developed for the **Teknofest Autonomous 
 # Demo 
 
 ### Autonomous Target Tracking
-Real-time autonomous target tracking in Gazebo simulation.
+Real-time target detection and predictive tracking
+in a two-UAV Gazebo simulation.
 <p align="center">
 <img src="assets/iha.gif" width="900">
 </p>
 
 ### Autonomous Kamikaze Mission
-QR code detection and autonomous mission simulation.
+Autonomous terminal mission simulation featuring
+QR code detection and geometry-based approach
+angle estimation.
 <p align="center">
 <img src="assets/QR_DETECT.gif" width="900">
 </p>
@@ -53,6 +56,7 @@ The system was successfully developed through the **Critical Design Review (CDR)
 ## Real-Time Vision
 
 * YOLOv11-based target detection
+* TensorRT-optimized YOLO inference
 * High-frequency perception pipeline
 * High-frequency camera input support
 * OpenCV-based image processing
@@ -132,24 +136,24 @@ Where:
 * h: Relative altitude difference
 * d: Horizontal distance
 * α: Relative approach angle
-
-### Technologies Used
-
-* OpenCV Object Detection
-* OpenCV Core / OCL
-* OpenCV HighGUI
-* WeChat QR Code Detection
-
 ---
 
 # Technologies
 
+### Robotics & Simulation
 * ROS 2
 * Gazebo
 * PX4
 * MAVLink
+
+### Computer Vision
 * YOLOv11
+* TensorRT
+* TensorRT-Optimized YOLO Inference
 * OpenCV
+* WeChat QR Code Detection
+
+### Control & Estimation
 * C++
 * Python
 * Kalman Filtering
