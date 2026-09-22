@@ -111,7 +111,7 @@ The project includes a complete interception framework capable of
 
 ---
 
-## Autonomous Kamikaze Mission
+# Autonomous Kamikaze Mission
 
 The system includes a dedicated autonomous kamikaze
 mission developed for the Teknofest Autonomous Combat
