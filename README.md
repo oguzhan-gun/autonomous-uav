@@ -132,6 +132,43 @@ The project includes a complete interception framework capable of
 
 ---
 
+## Autonomous Kamikaze Mission
+
+The system includes a dedicated autonomous kamikaze
+mission developed for the Teknofest Autonomous Combat
+UAV Competition.
+
+The vision pipeline utilizes OpenCV-based image
+processing and WeChat QR Code detection to extract
+visual information relevant to the mission scenario.
+
+The approach angle is estimated using relative
+horizontal distance and altitude difference based
+on the tangent function:
+
+tan(α) = h / d
+
+Where:
+
+* h: Relative altitude difference
+* d: Horizontal distance
+* α: Relative approach angle
+
+### Technologies Used
+
+* OpenCV Object Detection
+* OpenCV Core / OCL
+* OpenCV HighGUI
+* WeChat QR Code Detection
+
+### Demo
+
+<p align="center">
+<img src="assets/QR_DETECT.gif" width="900">
+</p>
+
+---
+
 ## Competition Constraints
 
 The simulation environment and autonomous flight system were developed in accordance with the **Teknofest Autonomous Combat UAV Competition** regulations.
