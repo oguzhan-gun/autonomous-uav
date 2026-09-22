@@ -14,11 +14,19 @@ An autonomous air-to-air combat system developed for the **Teknofest Autonomous 
 ---
 
 # Demo 
-Real-time autonomous target tracking in Gazebo simulation.
 
+### Autonomous Target Tracking
+Real-time autonomous target tracking in Gazebo simulation.
 <p align="center">
 <img src="assets/iha.gif" width="900">
 </p>
+
+### Autonomous Kamikaze Mission
+QR code detection and autonomous mission simulation.
+<p align="center">
+<img src="assets/QR_DETECT.gif" width="900">
+</p>
+
 
 ---
 
@@ -103,35 +111,6 @@ The project includes a complete interception framework capable of
 
 ---
 
-# Technologies
-
-* ROS 2
-* Gazebo
-* PX4
-* MAVLink
-* YOLOv11
-* OpenCV
-* C++
-* Python
-* Kalman Filtering
-* PID Control
-* Sensor Fusion
-* Predictive Guidance
-* Feed-Forward Control
-
----
-
-# Results
-
-* Fully autonomous target detection
-* Robust predictive tracking
-* Real-time interception guidance
-* Multi-sensor localization
-* PX4 integration
-* Successfully completed the Teknofest CDR stage
-
----
-
 ## Autonomous Kamikaze Mission
 
 The system includes a dedicated autonomous kamikaze
@@ -161,11 +140,34 @@ Where:
 * OpenCV HighGUI
 * WeChat QR Code Detection
 
-### Demo
+---
 
-<p align="center">
-<img src="assets/QR_DETECT.gif" width="900">
-</p>
+# Technologies
+
+* ROS 2
+* Gazebo
+* PX4
+* MAVLink
+* YOLOv11
+* OpenCV
+* C++
+* Python
+* Kalman Filtering
+* PID Control
+* Sensor Fusion
+* Predictive Guidance
+* Feed-Forward Control
+
+---
+
+# Results
+
+* Fully autonomous target detection
+* Robust predictive tracking
+* Real-time interception guidance
+* Multi-sensor localization
+* PX4 integration
+* Successfully completed the Teknofest CDR stage
 
 ---
 
