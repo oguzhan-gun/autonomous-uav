@@ -148,7 +148,6 @@ Where:
 
 ### Computer Vision
 * YOLOv11
-* TensorRT
 * TensorRT-Optimized YOLO Inference
 * OpenCV
 * WeChat QR Code Detection
